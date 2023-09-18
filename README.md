@@ -1,25 +1,16 @@
 
-# Inventory Application
+# Spring boot project boilerplate
 
-The inventory application is an application for monitoring or managing the entry and exit of goods from inventory.
+This is an boilerplate of spring boot project, that include a few feature : 
 
 
-## Feature on program
+## Feature on boilerplate
 
  - [JWT](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/oauth2/jwt/Jwt.html)
  - [Spring Security](https://spring.io/projects/spring-security)
  - [Interceptor](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/HandlerInterceptor.html)
  - [Global Exception](https://www.baeldung.com/exception-handling-for-rest-with-spring)
  - [Validation](https://docs.spring.io/spring-framework/docs/4.1.x/spring-framework-reference/html/validation.html)
- 
-
-
-## Features on Application
-
-- Monitoring inventory
-- Exporting data to excel
-- 2 admin panel
-
 
 ## Deployment
 
