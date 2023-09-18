@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Inventory-app DB
+    username: postgres
+    password: admin
+    hikari:
+      connection-timeout: 3000
+      maximum-pool-size: 10
+      minimum-idle: 4
+      idle-timeout: 600000
+      pool-name: Inventory app pool
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    database: postgresql
+
+application:
+  version: 1
+
+server:
+  port: 9000
+  error:
+    include-message: always
+
+jwt:
+  secret-key: InventoryAppJwtKey
